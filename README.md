@@ -8,7 +8,7 @@ The dataset provides the number of the observed scanned receipts each day for th
 
 ## Solution
 
-The solution for the problem statement has been described in detail in the [report.pdf](https://www.github.com/sagar118/) file. Also, please find the app deployed on HuggingFace Spaces [here](https://huggingface.co/spaces/sagar-thacker/fetch-rewards-application).
+The solution for the problem statement has been described in detail in the [report.pdf](https://github.com/sagar118/fetch-rewards-app/blob/main/report.pdf) file. Also, please find the app deployed on HuggingFace Spaces [here](https://huggingface.co/spaces/sagar-thacker/fetch-rewards-application).
 
 ## Instructions to run the code
 
