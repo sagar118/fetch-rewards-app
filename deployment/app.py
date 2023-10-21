@@ -109,12 +109,12 @@ def cal_result(alpha, month):
 
 with gr.Blocks() as demo:
     gr.Markdown("""There are two models with the difference with the damped parameter. Why are there two models? Why do we use damping?
-
-1.	**Realistic Forecasts**: In many real-world scenarios, it's unlikely for a trend to continue indefinitely at the same rate. For example, if sales of a product are increasing, they might not keep increasing forever at the same rate. After a certain point, the growth might slow down. Damping takes this into account.
-
-2.	**Avoid Over-optimistic or Pessimistic Predictions**: Without damping, the model could make overly optimistic (for upward trends) or overly pessimistic (for downward trends) predictions for long-term forecasts.
-
-3.	**Stability**: Damped models often provide more stable long-term forecasts, especially when the data has some inherent variability or noise.""")
+                
+                **Realistic Forecasts**: In many real-world scenarios, it's unlikely for a trend to continue indefinitely at the same rate. For example, if sales of a product are increasing, they might not keep increasing forever at the same rate. After a certain point, the growth might slow down. Damping takes this into account.
+                
+                **Avoid Over-optimistic or Pessimistic Predictions**: Without damping, the model could make overly optimistic (for upward trends) or overly pessimistic (for downward trends) predictions for long-term forecasts.
+                
+                **Stability**: Damped models often provide more stable long-term forecasts, especially when the data has some inherent variability or noise.""")
 
     with gr.Row():
         alpha = gr.Dropdown(choices=["0.1", "0.05", "0.01"], label="Significance level", info="The significance level for the confidence intervals.", value="0.05")
